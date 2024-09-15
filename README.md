@@ -10,6 +10,8 @@ This lab focuses on configuring different types of EtherChannel using various pr
     - **SVI IP (on VLAN 1):** 172.16.1.254 (ASW1), 172.16.2.254 (ASW2)
     - **DSW1/DSW2:** IPs in the 10.0.0.0/30 subnet for inter-switch routing.
 
+<img src= "https://github.com/ro-drick/EtherChannel-Configuration/blob/main/etherchannel.PNG">
+
 ### **Objectives:**
 1. Configure Layer 2 EtherChannel between **ASW1** and **DSW1** using **LACP** as a trunk.
 2. Configure Layer 2 EtherChannel between **ASW2** and **DSW2** using **PAgP** as a trunk.
